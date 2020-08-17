@@ -1,0 +1,14 @@
+E:\Work\Microsoft Visual Studio\Projects\ControlCalculator\obj\Debug\ControlCalculator.csprojAssemblyReference.cache
+E:\Work\Microsoft Visual Studio\Projects\ControlCalculator\obj\Debug\MainWindow.g.cs
+E:\Work\Microsoft Visual Studio\Projects\ControlCalculator\obj\Debug\App.g.cs
+E:\Work\Microsoft Visual Studio\Projects\ControlCalculator\obj\Debug\ControlCalculator_MarkupCompile.cache
+E:\Work\Microsoft Visual Studio\Projects\ControlCalculator\obj\Debug\ControlCalculator_MarkupCompile.lref
+E:\Work\Microsoft Visual Studio\Projects\ControlCalculator\bin\Debug\ControlCalculator.exe.config
+E:\Work\Microsoft Visual Studio\Projects\ControlCalculator\bin\Debug\ControlCalculator.exe
+E:\Work\Microsoft Visual Studio\Projects\ControlCalculator\bin\Debug\ControlCalculator.pdb
+E:\Work\Microsoft Visual Studio\Projects\ControlCalculator\obj\Debug\MainWindow.baml
+E:\Work\Microsoft Visual Studio\Projects\ControlCalculator\obj\Debug\ControlCalculator.g.resources
+E:\Work\Microsoft Visual Studio\Projects\ControlCalculator\obj\Debug\ControlCalculator.Properties.Resources.resources
+E:\Work\Microsoft Visual Studio\Projects\ControlCalculator\obj\Debug\ControlCalculator.csproj.GenerateResource.cache
+E:\Work\Microsoft Visual Studio\Projects\ControlCalculator\obj\Debug\ControlCalculator.exe
+E:\Work\Microsoft Visual Studio\Projects\ControlCalculator\obj\Debug\ControlCalculator.pdb
