@@ -6,46 +6,46 @@
         xmlns:local="clr-namespace:ControlCalculator"
         mc:Ignorable="d"
         Title="ControlCalculator" Height="644" Width="348" ResizeMode="NoResize">
-    <Grid Margin="0,0,4,0">
+    <Grid Background="#DFDCDA">
         <Grid.RowDefinitions>
             <RowDefinition Height="46*"/>
             <RowDefinition Height="85*"/>
             <RowDefinition Height="59*"/>
             <RowDefinition Height="424*"/>
         </Grid.RowDefinitions>
-        <TextBox x:Name="Screen" HorizontalAlignment="Left" Margin="21,10,0,15" Grid.Row="1" TextWrapping="Wrap" Width="298" FontSize="40" HorizontalContentAlignment="Right" Text="0"/>
+        <TextBox x:Name="Screen" HorizontalAlignment="Left" Margin="21,10,0,15" Grid.Row="1" TextWrapping="Wrap" Width="298" FontSize="40" Background="#EBE8E6" HorizontalContentAlignment="Right" Text="0"/>
         <StackPanel HorizontalAlignment="Left" Grid.Row="2" Width="316" Orientation="Horizontal" Margin="12,0,0,0">
-            <Button Content="MC" Margin="10,10,0,10" HorizontalAlignment="Left" Width="53" FontSize="7" FontWeight="Bold" Click="Button_Memory_Click" FontFamily="Roboto"/>
-            <Button Content="MR" Margin="8,10,0,10" HorizontalAlignment="Left" Width="53" FontSize="7" FontWeight="Bold" Click="Button_Memory_Click"/>
-            <Button Content="M+" Margin="8,10,0,10" HorizontalAlignment="Left" Width="53" FontSize="7" FontWeight="Bold" Click="Button_Memory_Click"/>
-            <Button Content="M-" Margin="8,10,0,10" HorizontalAlignment="Left" Width="53" FontSize="7" FontWeight="Bold" Click="Button_Memory_Click"/>
-            <Button Content="MS" Margin="8,10,0,10" HorizontalAlignment="Left" Width="53" FontSize="7" FontWeight="Bold" Click="Button_Memory_Click"/>
+            <Button Content="MC" Margin="10,10,0,10" HorizontalAlignment="Left" Width="53" FontSize="13" FontWeight="Bold" Click="Button_Memory_Click"/>
+            <Button Content="MR" Margin="8,10,0,10" HorizontalAlignment="Left" Width="53" FontSize="13" FontWeight="Bold" Click="Button_Memory_Click"/>
+            <Button Content="M+" Margin="8,10,0,10" HorizontalAlignment="Left" Width="53" FontSize="13" FontWeight="Bold" Click="Button_Memory_Click"/>
+            <Button Content="M-" Margin="8,10,0,10" HorizontalAlignment="Left" Width="53" FontSize="13" FontWeight="Bold" Click="Button_Memory_Click"/>
+            <Button Content="MS" Margin="8,10,0,10" HorizontalAlignment="Left" Width="53" FontSize="13" FontWeight="Bold" Click="Button_Memory_Click"/>
         </StackPanel>
         <WrapPanel Margin="10,10,0,10" Grid.Row="3" HorizontalAlignment="Left" Width="322">
-            <Button Content="%" Margin="10,10,10,5" Height="50" Width="60" Click="Button_Percent_Click"/>
-            <Button Content="CE" Margin="10,10,10,5" Height="50" Width="60" Click="Button_Clean_Click"/>
-            <Button Content="C" Margin="10,10,10,5" Height="50" Width="60" Click="Button_Clean_Click"/>
-            <Button Content="Del" Margin="10,10,10,5" Height="50" Width="60" Click="Button_Clean_Click"/>
-            <Button Content="1/x" Margin="10,10,10,5" Height="50" Width="60" Click="Button_Action_Click"/>
-            <Button Content="x^2" Margin="10,10,10,5" Height="50" Width="60" Click="Button_Action_Click"/>
-            <Button Content="√" Margin="10,10,10,5" Height="50" Width="60" Click="Button_Action_Click"/>
-            <Button Content="/" Margin="10,10,10,5" Height="50" Width="60" Click="Button_Operator_Click"/>
-            <Button Content="7" Margin="10,10,10,5" Height="50" Width="60" Click="Button_Num_Click"/>
-            <Button Content="8" Margin="10,10,10,5" Height="50" Width="60" Click="Button_Num_Click"/>
-            <Button Content="9" Margin="10,10,10,5" Height="50" Width="60" Click="Button_Num_Click"/>
-            <Button Content="x" Margin="10,10,10,5" Height="50" Width="60" Click="Button_Operator_Click"/>
-            <Button Content="4" Margin="10,10,10,5" Height="50" Width="60" Click="Button_Num_Click"/>
-            <Button Content="5" Margin="10,10,10,5" Height="50" Width="60" Click="Button_Num_Click"/>
-            <Button Content="6" Margin="10,10,10,5" Height="50" Width="60" Click="Button_Num_Click"/>
-            <Button Content="-" Margin="10,10,10,5" Height="50" Width="60" Click="Button_Operator_Click"/>
-            <Button Content="1" Margin="10,10,10,5" Height="50" Width="60" Click="Button_Num_Click"/>
-            <Button Content="2" Margin="10,10,10,5" Height="50" Width="60" Click="Button_Num_Click"/>
-            <Button Content="3" Margin="10,10,10,5" Height="50" Width="60" Click="Button_Num_Click"/>
-            <Button Content="+" Margin="10,10,10,5" Height="50" Width="60" Click="Button_Operator_Click"/>
-            <Button Content="+/-" Margin="10,10,10,5" Height="50" Width="60" Click="Button_Action_Click"/>
-            <Button Content="0" Margin="10,10,10,5" Height="50" Width="60" Click="Button_Zero_Click"/>
-            <Button Content="," Margin="10,10,10,5" Height="50" Width="60" Click="Button_Coma_Click"/>
-            <Button Content="=" Margin="10,10,10,5" Height="50" Width="60" Click="Button_Solve_Click"/>
+            <Button Content="%" Margin="10,10,10,5" Height="50" Width="60" FontSize="18" Background="#A49D9D" Click="Button_Percent_Click"/>
+            <Button Content="CE" Margin="10,10,10,5" Height="50" Width="60" FontSize="18" Background="#A49D9D" Click="Button_Clean_Click"/>
+            <Button Content="C" Margin="10,10,10,5" Height="50" Width="60" FontSize="18" Background="#A49D9D" Click="Button_Clean_Click"/>
+            <Button Content="Del" Margin="10,10,10,5" Height="50" Width="60" FontSize="18" Background="#A49D9D" Click="Button_Clean_Click"/>
+            <Button Content="1/x" Margin="10,10,10,5" Height="50" Width="60" FontSize="18" Background="#A49D9D" Click="Button_Action_Click"/>
+            <Button Content="x^2" Margin="10,10,10,5" Height="50" Width="60" FontSize="18" Background="#A49D9D" Click="Button_Action_Click"/>
+            <Button Content="√" Margin="10,10,10,5" Height="50" Width="60" FontSize="18" Background="#A49D9D" Click="Button_Action_Click"/>
+            <Button Content="/" Margin="10,10,10,5" Height="50" Width="60" FontSize="18" Background="#A49D9D" Click="Button_Operator_Click"/>
+            <Button Content="7" Margin="10,10,10,5" Height="50" Width="60" FontSize="18" Background="LightGray" Click="Button_Num_Click"/>
+            <Button Content="8" Margin="10,10,10,5" Height="50" Width="60" FontSize="18" Background="LightGray" Click="Button_Num_Click"/>
+            <Button Content="9" Margin="10,10,10,5" Height="50" Width="60" FontSize="18" Background="LightGray" Click="Button_Num_Click"/>
+            <Button Content="x" Margin="10,10,10,5" Height="50" Width="60" FontSize="18" Background="#A49D9D" Click="Button_Operator_Click"/>
+            <Button Content="4" Margin="10,10,10,5" Height="50" Width="60" FontSize="18" Background="LightGray" Click="Button_Num_Click"/>
+            <Button Content="5" Margin="10,10,10,5" Height="50" Width="60" FontSize="18" Background="LightGray" Click="Button_Num_Click"/>
+            <Button Content="6" Margin="10,10,10,5" Height="50" Width="60" FontSize="18" Background="LightGray" Click="Button_Num_Click"/>
+            <Button Content="-" Margin="10,10,10,5" Height="50" Width="60" FontSize="18" Background="#A49D9D" Click="Button_Operator_Click"/>
+            <Button Content="1" Margin="10,10,10,5" Height="50" Width="60" FontSize="18" Background="LightGray" Click="Button_Num_Click"/>
+            <Button Content="2" Margin="10,10,10,5" Height="50" Width="60" FontSize="18" Background="LightGray" Click="Button_Num_Click"/>
+            <Button Content="3" Margin="10,10,10,5" Height="50" Width="60" FontSize="18" Background="LightGray" Click="Button_Num_Click"/>
+            <Button Content="+" Margin="10,10,10,5" Height="50" Width="60" FontSize="18" Background="#A49D9D" Click="Button_Operator_Click"/>
+            <Button Content="+/-" Margin="10,10,10,5" Height="50" Width="60" FontSize="18" Background="LightGray" Click="Button_Action_Click"/>
+            <Button Content="0" Margin="10,10,10,5" Height="50" Width="60" FontSize="18" Background="LightGray" Click="Button_Zero_Click"/>
+            <Button Content="," Margin="10,10,10,5" Height="50" Width="60" FontSize="18" Background="LightGray" Click="Button_Coma_Click"/>
+            <Button Content="=" Margin="10,10,10,5" Height="50" Width="60" FontSize="20" FontWeight="Bold" Background="#595653" Click="Button_Solve_Click"/>
         </WrapPanel>
     </Grid>
 </Window>
